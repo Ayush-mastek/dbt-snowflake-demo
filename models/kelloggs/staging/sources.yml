@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: stage
+    schema: stage
+    tables:
+      - name: cust_mstr_kna1
+      - name: cust_mstr_tkna1
+      - name: prod_mstr_pna1
+      - name: prod_mstr_tpna1
+
+  - name: storage
+    schema: storage
+    tables:
+      - name: invoice_raw
